@@ -7,8 +7,8 @@ class App < Sinatra::Base
     set :sessions_secret, "secret"
   end
 
-  get '/' do 
-    erb :index 
+  get '/' do
+    erb :index
   end 
-  
+
 end
